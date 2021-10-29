@@ -1,2 +1,12 @@
 # surfs_up
-Jupyter notebook, Python, SQLite
+Jupyter notebook, SQLite, SQalchemy
+## Overview
+The prupose of this analysis was to utilize an SQLite database and SQalchemy in Jupyter Notebook to analyze temperature data for the months of June and December in Oahu to determine if the surf and icecream shop business is sustainable year round.  Temperature lists were generated using qeries and then descriptive statistics were generated to determine the viablity of year round business.
+## Results
+  - Analysis of the temerature results revealed that the mean temperatures were pretty similar for the months of December and June which had years between 2010 and 2017.  Mean temperatures for December with 1517 datapoints were 71 degrees F while the temperatures for June with 1700 datapoints was 75 degrees F, indicating only a small difference in absolute temperature.  The median temperatures also reflect the same data with 71 degrees F and 75 degrees F for December and June, respectively.
+  - The first quartile presented similar analysis to the mean and median measures.  The first quartile temperatures for June was 73 degrees F and for December it was 69 degrees.  This represented a very similar difference to the measures presented previously.
+  - The third quartile also presented similar results to the first quartile.  It was 77 degrees F for June and 74 degrees F for December.  The largest different between values for quartiles was in the first quartile and median.  
+  - ![image](https://user-images.githubusercontent.com/88444529/139461805-4e5aa2b3-8fbc-49ac-886d-d5285b8dc22e.png)
+  - ![image](https://user-images.githubusercontent.com/88444529/139461846-684ace98-9677-477c-98d6-2419c8ef4ac4.png)
+## Summary
+The results of the analysis indicate that the business is likely viable for year round business.  There is not much of a difference between any of the quartiles of temperatures between December and June.  Additional information and queries could be run to make a more accurate assessment of whether or not a year round Surf Shop and Ice Cream Shop are viable in Oahu.  Another query that could be run would be taking only the temperatures from the station location that is closest to where the Ice Cream Shop and Surf Shop will be located.  Specifically for the Surf Shop, the precipitation during certain months of the year may affect sales.  An additional query for differing months or different seasons could be run on precipitation.  In addition, it would be a good idea to do research on other surf shops as to whether temperature differences or seasonal differences effect sales of surf equipment and ice cream sales.
